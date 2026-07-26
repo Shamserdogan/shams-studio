@@ -1,0 +1,6 @@
+{
+  "name": "SHAMS STUDIO",
+  "description": "Dynamic full-stack portfolio platform, blog CMS, and backend system for SHAMS STUDIO.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

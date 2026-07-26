@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="p1-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <radialGradient id="bg-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#083344" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="450" fill="url(#bg-glow)" />
+  <g opacity="0.1">
+    <path d="M0 50 H800 M0 100 H800 M0 150 H800 M0 200 H800 M0 250 H800 M0 300 H800 M0 350 H800 M0 400 H800" stroke="#ffffff" stroke-width="1" />
+    <path d="M100 0 V450 M200 0 V450 M300 0 V450 M400 0 V450 M500 0 V450 M600 0 V450 M700 0 V450" stroke="#ffffff" stroke-width="1" />
+  </g>
+
+  <!-- Camera HUD brackets -->
+  <path d="M40 40 H100 M40 40 V100 M760 40 H700 M760 40 V100 M40 410 H100 M40 410 V350 M760 410 H700 M760 410 V350" stroke="#06b6d4" stroke-width="2" />
+
+  <!-- Center Piece: Cinema Frame/Video Loop Icon -->
+  <circle cx="400" cy="225" r="110" stroke="url(#p1-grad)" stroke-width="1" stroke-dasharray="8,6" />
+  <circle cx="400" cy="225" r="90" fill="#020617" stroke="url(#p1-grad)" stroke-width="3" />
+  
+  <!-- Play Symbol -->
+  <polygon points="370,175 450,225 370,275" fill="url(#p1-grad)" />
+
+  <!-- Waveform overlay -->
+  <path d="M220 330 Q240 300, 260 330 T300 330 T340 330 T380 270 T420 380 T460 330 T500 330 T540 310 T580 330" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Interactive labels -->
+  <text x="50" y="400" fill="#06b6d4" font-family="monospace" font-size="12" letter-spacing="2">REC [00:12:44:19]</text>
+  <text x="750" y="400" fill="#ffffff" font-family="monospace" font-size="12" letter-spacing="1" text-anchor="end">AI_SYNTH_COMP_v2.0</text>
+  <text x="400" y="70" fill="#ffffff" font-family="monospace" font-size="16" font-weight="bold" letter-spacing="4" text-anchor="middle">AETHER LUXURY VIDEO ADS</text>
+</svg>

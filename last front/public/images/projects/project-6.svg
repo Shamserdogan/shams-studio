@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="p6-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+    <radialGradient id="bg-glow-6" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4c0519" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="450" fill="url(#bg-glow-6)" />
+
+  <!-- Technical overlays -->
+  <g opacity="0.1" stroke="#ffffff" stroke-width="0.5">
+    <circle cx="400" cy="225" r="300" />
+    <line x1="0" y1="225" x2="800" y2="225" />
+    <line x1="400" y1="0" x2="400" y2="450" />
+  </g>
+
+  <!-- Camera HUD specs -->
+  <rect x="30" y="30" width="740" height="390" stroke="#f43f5e" stroke-opacity="0.25" stroke-width="1.5" />
+  
+  <!-- Cinematic Lens / Focus rings -->
+  <g stroke="url(#p6-grad)" stroke-width="2">
+    <circle cx="400" cy="225" r="130" stroke-opacity="0.3" stroke-dasharray="10, 5" />
+    <circle cx="400" cy="225" r="100" />
+    <circle cx="400" cy="225" r="70" stroke-opacity="0.6" stroke-dasharray="2, 6" />
+    
+    <!-- Camera aperture blades (Abstract) -->
+    <line x1="330" y1="225" x2="350" y2="155" />
+    <line x1="400" y1="155" x2="470" y2="175" />
+    <line x1="470" y1="225" x2="450" y2="295" />
+    <line x1="400" y1="295" x2="330" y2="275" />
+  </g>
+
+  <!-- Center node -->
+  <circle cx="400" cy="225" r="10" fill="#ffffff" />
+
+  <!-- Voiceover frequency waves in foreground -->
+  <path d="M100 225 L150 225 C160 180, 170 270, 180 225 C190 140, 200 310, 210 225 C220 100, 230 350, 240 225 C250 160, 260 290, 270 225 L300 225" stroke="#f43f5e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M500 225 L530 225 C540 160, 550 290, 560 225 C570 100, 580 350, 590 225 C600 140, 610 310, 620 225 C630 180, 640 270, 650 225 L700 225" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Audio Level bars on Left -->
+  <g transform="translate(60, 120)" fill="#f43f5e">
+    <rect x="0" y="0" width="10" height="20" rx="2" opacity="0.4" />
+    <rect x="0" y="25" width="10" height="20" rx="2" opacity="0.6" />
+    <rect x="0" y="50" width="10" height="20" rx="2" opacity="0.8" />
+    <rect x="0" y="75" width="10" height="20" rx="2" />
+    <rect x="0" y="100" width="10" height="20" rx="2" />
+    <rect x="0" y="125" width="10" height="20" rx="2" opacity="0.9" />
+    <rect x="0" y="150" width="10" height="20" rx="2" opacity="0.5" />
+  </g>
+
+  <!-- Metadata text labels -->
+  <text x="400" y="70" fill="#ffffff" font-family="monospace" font-size="16" font-weight="bold" letter-spacing="4" text-anchor="middle">CINESCALE VIDEO PRODUCTION</text>
+  <text x="60" y="380" fill="#f43f5e" font-family="monospace" font-size="11" letter-spacing="2">AUDIO_FEEDBACK: ENABLED</text>
+  <text x="740" y="380" fill="#f97316" font-family="monospace" font-size="11" letter-spacing="2" text-anchor="end">FPS: 24.00_CINEMATIC</text>
+</svg>

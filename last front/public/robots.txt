@@ -1,0 +1,6 @@
+# Allow all search bots
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://shams-studio.com/sitemap.xml

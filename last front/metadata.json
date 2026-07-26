@@ -1,0 +1,6 @@
+{
+  "name": "Shams Studio Hero Experience",
+  "description": "A premium, futuristic personal brand hero section for Shams Ud Din, founder of Shams Studio, featuring advanced animations, glowing visual elements, and floating technical badges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
